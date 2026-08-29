@@ -6,7 +6,7 @@ export default function LandingPage() {
 
       {/* NAVBAR */}
       <header className="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/landing" className="flex items-center gap-3">
           <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white text-2xl font-bold text-black">
             ✓
           </div>
@@ -95,6 +95,7 @@ export default function LandingPage() {
 
             <div className="space-y-4">
 
+              {/* TASK 1 */}
               <div className="flex items-center gap-4 rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
 
                 <div className="flex h-7 w-7 items-center justify-center rounded-full bg-white text-sm font-bold text-black">
@@ -114,6 +115,7 @@ export default function LandingPage() {
               </div>
 
 
+              {/* TASK 2 */}
               <div className="flex items-center gap-4 rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
 
                 <div className="h-7 w-7 rounded-full border border-zinc-600" />
@@ -133,6 +135,7 @@ export default function LandingPage() {
               </div>
 
 
+              {/* TASK 3 */}
               <div className="flex items-center gap-4 rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
 
                 <div className="h-7 w-7 rounded-full border border-zinc-600" />
@@ -258,6 +261,7 @@ export default function LandingPage() {
 
         <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-10 sm:flex-row sm:items-center sm:justify-between">
 
+          {/* FOOTER BRAND */}
           <div>
 
             <p className="font-bold">
