@@ -15,9 +15,15 @@ export const metadata: Metadata = {
     "to-do list",
     "productivity app",
     "task management",
+    "daily task planner",
   ],
 
-  authors: [{ name: "TaskFlow" }],
+  authors: [
+    {
+      name: "TaskFlow",
+    },
+  ],
+
   creator: "TaskFlow",
   applicationName: "TaskFlow",
 
@@ -32,17 +38,23 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "TaskFlow — Simple Free Task Manager",
+
     description:
-      "A simple and free task manager for organizing your work and staying productive.",
+      "A simple and free task manager for organizing tasks, managing priorities, and staying productive.",
+
     type: "website",
+
     siteName: "TaskFlow",
+
+    url: "https://taskflow-siddhesh14.vercel.app",
   },
 
   twitter: {
     card: "summary",
     title: "TaskFlow — Simple Free Task Manager",
+
     description:
-      "A simple and free task manager for organizing your tasks and staying productive.",
+      "A simple and free task manager for organizing your work and staying productive.",
   },
 };
 
