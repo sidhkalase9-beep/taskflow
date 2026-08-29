@@ -5,59 +5,44 @@ export const metadata: Metadata = {
   title: "TaskFlow — Simple Free Task Manager",
 
   description:
-    "TaskFlow is a simple, fast, and free task manager that helps you organize tasks, prioritize your work, manage deadlines, and stay productive.",
+    "TaskFlow is a simple and free task manager that helps you organize tasks, manage priorities, track deadlines, and stay productive.",
 
   keywords: [
     "TaskFlow",
     "task manager",
     "free task manager",
-    "to-do list",
     "todo app",
+    "to-do list",
     "productivity app",
     "task management",
-    "daily task planner",
-    "online task manager",
   ],
 
-  authors: [
-    {
-      name: "TaskFlow",
-    },
-  ],
-
+  authors: [{ name: "TaskFlow" }],
   creator: "TaskFlow",
-
   applicationName: "TaskFlow",
-
-  generator: "Next.js",
 
   robots: {
     index: true,
     follow: true,
   },
 
+  verification: {
+    google: "WKwuVibPNps2f44JxehbJ10mog5eskEab3E1eaRJ_Yw",
+  },
+
   openGraph: {
     title: "TaskFlow — Simple Free Task Manager",
-
     description:
-      "Organize your tasks, manage priorities, track deadlines, and stay productive with TaskFlow.",
-
+      "A simple and free task manager for organizing your work and staying productive.",
     type: "website",
-
     siteName: "TaskFlow",
   },
 
   twitter: {
     card: "summary",
     title: "TaskFlow — Simple Free Task Manager",
-
     description:
-      "A simple, fast, and free task manager for organizing your day.",
-  },
-
-  verification: {
-    google:
-      "WKwuVibPNps2f44JxehbJ10mog5eskEab3E1eaRJ_Yw",
+      "A simple and free task manager for organizing your tasks and staying productive.",
   },
 };
 
