@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://taskflow-teal-three.vercel.app/sitemap.xml",
+    sitemap: "https://taskflow-siddhesh14.vercel.app/sitemap.xml",
   };
 }

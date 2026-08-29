@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://taskflow-teal-three.vercel.app";
+  const baseUrl = "https://taskflow-siddhesh14.vercel.app";
 
   return [
     {
