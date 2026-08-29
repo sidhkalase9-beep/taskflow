@@ -54,6 +54,11 @@ export const metadata: Metadata = {
     description:
       "A simple, fast, and free task manager for organizing your day.",
   },
+
+  verification: {
+    google:
+      "WKwuVibPNps2f44JxehbJ10mog5eskEab3E1eaRJ_Yw",
+  },
 };
 
 export default function RootLayout({
