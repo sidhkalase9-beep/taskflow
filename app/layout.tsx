@@ -2,23 +2,21 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: {
-    default: "TaskFlow — Simple Free Task Manager",
-    template: "%s | TaskFlow",
-  },
+  title: "TaskFlow — Simple Free Task Manager",
 
   description:
-    "TaskFlow is a simple and free task manager that helps you organize tasks, set priorities, manage deadlines, and stay productive.",
+    "TaskFlow is a simple, fast, and free task manager that helps you organize tasks, prioritize your work, manage deadlines, and stay productive.",
 
   keywords: [
-    "task manager",
-    "todo list",
-    "to do list",
-    "productivity",
-    "task management",
-    "free task manager",
-    "online todo list",
     "TaskFlow",
+    "task manager",
+    "free task manager",
+    "to-do list",
+    "todo app",
+    "productivity app",
+    "task management",
+    "daily task planner",
+    "online task manager",
   ],
 
   authors: [
@@ -27,6 +25,12 @@ export const metadata: Metadata = {
     },
   ],
 
+  creator: "TaskFlow",
+
+  applicationName: "TaskFlow",
+
+  generator: "Next.js",
+
   robots: {
     index: true,
     follow: true,
@@ -34,17 +38,21 @@ export const metadata: Metadata = {
 
   openGraph: {
     title: "TaskFlow — Simple Free Task Manager",
+
     description:
-      "Organize your tasks, manage priorities, track deadlines, and get things done with TaskFlow.",
+      "Organize your tasks, manage priorities, track deadlines, and stay productive with TaskFlow.",
+
     type: "website",
+
     siteName: "TaskFlow",
   },
 
   twitter: {
     card: "summary",
     title: "TaskFlow — Simple Free Task Manager",
+
     description:
-      "A simple and free task manager for organizing your day.",
+      "A simple, fast, and free task manager for organizing your day.",
   },
 };
 
